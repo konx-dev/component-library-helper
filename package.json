@@ -1,10 +1,14 @@
 {
-  "name": "component-library-helper",
+  "name": "@konx-dev/component-library-helper",
   "version": "1.0.0",
   "main": "add.js",
   "type": "module",
   "scripts": {
     "add": "node add.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konx-dev/component-library-helper.git"
   },
   "author": "",
   "license": "ISC",
