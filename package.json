@@ -1,0 +1,15 @@
+{
+  "name": "component-library-helper",
+  "version": "1.0.0",
+  "main": "add.js",
+  "type": "module",
+  "scripts": {
+    "add": "node add.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
