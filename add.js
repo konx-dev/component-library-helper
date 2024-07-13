@@ -32,7 +32,7 @@ function installComponents(components) {
     // compare against available components before attempting to copy
     if (remoteComponentList.includes(component)) {
       // no-clobber (-n) prevents component accidental overwrites, no need for file checking
-      shell.cp('-Rn', `${path}/temp/src/components/${component}`, `${path}/components/kx`);
+      shell.cp('-Rn', `${path}/temp/components/${component}`, `${path}/components/kx`);
     } else {
       shell.echo(`warn: '${component}' doesn't exist, skipping install.`);
     }
@@ -41,7 +41,7 @@ function installComponents(components) {
 
 // Check the temp folder for a list of all available components
 function buildRemoteComponentList() {
-  return shell.ls('-A', `${path}/temp/src/components`).toString().split(',');
+  return shell.ls('-A', `${path}/temp/components`).toString().split(',');
 }
 
 // delete temp files
