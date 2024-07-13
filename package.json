@@ -1,6 +1,6 @@
 {
   "name": "@konx-dev/component-library-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "add": "node add.js",
