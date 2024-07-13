@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import shell from 'shelljs';
 
 // kill process if no components are provided

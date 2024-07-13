@@ -6,6 +6,9 @@
   "scripts": {
     "add": "node add.js"
   },
+  "bin": {
+    "add": "./add.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/konx-dev/component-library-helper.git"
