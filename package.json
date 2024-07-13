@@ -1,13 +1,14 @@
 {
   "name": "@konx-dev/component-library-helper",
   "version": "1.0.1",
-  "main": "add.js",
   "type": "module",
   "scripts": {
-    "add": "node add.js"
+    "add": "node add.js",
+    "remove": "node remove.js"
   },
   "bin": {
-    "add": "./add.js"
+    "add": "./add.js",
+    "remove": "./remove.js"
   },
   "repository": {
     "type": "git",
