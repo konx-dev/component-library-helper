@@ -6,7 +6,7 @@ Utility script to add/remove components from konx-dev/component-library, functio
 
 ## How to use
 
-Reference paired component library for full component list, found [here](https://github.com/konx-dev/component-library-demo)
+Reference paired component library for full component list, found [here](https://github.com/konx-dev/component-library-demo). note: this is a placeholder repo while I establish functionality.
 
 `npx @konx-dev/component-library-helper add <component_name>`
 
@@ -14,18 +14,18 @@ Reference paired component library for full component list, found [here](https:/
 
 ### MVP
 
-[x] - error script if no args are passed
-[x] - check if a component already exists in the project, if so skip (achieved via -n flag)
-[x] - be able to handle multiple component installations i.e 'npm run add link button'
-[x] - check for validity of requested components against remote component list
-[x] - Decide on plan for temp files (purged at the end)
-[ ] - Test functionality via a NPX command
+- [x] error script if no args are passed
+- [x] check if a component already exists in the project, if so skip (achieved via -n flag)
+- [x] be able to handle multiple component installations i.e 'npm run add link button'
+- [x] check for validity of requested components against remote component list
+- [x] Decide on plan for temp files (purged at the end)
+- [x] Test functionality via a NPX command
 
 ### QoL
 
-[ ] - Echo install outcome (fail, success, passed component installs)
-[ ] - Handle install skips with echos
-[ ] - Additional scripts (tbc) remove components etc
+- [ ] Echo install outcome (fail, success, passed component installs)
+- [ ] Handle install skips with echos
+- [ ] Additional scripts (tbc) remove components etc
 
 ## Thoughts / Issues / Questions
 
