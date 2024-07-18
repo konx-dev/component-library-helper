@@ -6,9 +6,13 @@ Utility script to add/remove components from konx-dev/component-library, functio
 
 ## How to use
 
-Reference paired component library for full component list, found [here](https://github.com/konx-dev/component-library-demo). note: this is a placeholder repo while I establish functionality.
+Reference paired component library for full component list, found [here](https://github.com/konx-dev/component-library-demo).
 
-`npx @konx-dev/component-library-helper add <component_name>`
+note: this is a placeholder repo while I establish functionality.
+
+`npx -p @konx-dev/component-library-helper add <component_name>`
+
+note: the -p flag is important to correctly select the right command, i.e add / remove etc
 
 ## Todolist
 
